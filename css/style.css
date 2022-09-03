@@ -1,0 +1,9 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.logo-div img{
+    filter: invert(34%) sepia(86%) saturate(3238%) hue-rotate(335deg) brightness(98%) contrast(107%);
+}
