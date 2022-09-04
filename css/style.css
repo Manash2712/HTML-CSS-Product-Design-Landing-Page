@@ -3,7 +3,250 @@
     margin: 0;
 }
 
+body{
+    background: #111111;
+    font-family: 'Montserrat';
+}
 
-.logo-div img{
+nav{
+    display: flex;
+    padding: 2% 10% 0 5%;
+}
+.nav-right{
+    width: 100%;
+    margin-left: 45%;
+}
+.nav-list{
+    list-style-type: none;
+    display: flex;
+    column-gap: 7%;
+    color: #fff;
+}
+
+.logo-red{
     filter: invert(34%) sepia(86%) saturate(3238%) hue-rotate(335deg) brightness(98%) contrast(107%);
+}
+
+.intro{
+    display: flex;
+    margin: 0 10%;
+    color: #fff;
+}
+.hero-intro{
+    margin-top: 10%;
+    width: 40%;
+}
+.hero-name{
+    color: #ff3343;
+    font-weight: 700;
+    font-size: 22px;
+}
+.hero-skill{
+    font-size: 50px;
+}
+.hero-desc{
+    margin-top: 10px;
+    color: #c9c9c9;
+    margin-bottom: 25px;
+}
+.red-button{
+    background: #c91b28;
+    color: #c9c9c9;
+    border: none;
+    height: 40px;
+    width: 120px;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.black-box{
+    background: #181818;
+    width: 50%;
+    height: 720px;
+    z-index: -1;
+    position: absolute;
+}
+
+.services{
+    display: flex;
+    margin: 0 15%;
+    justify-content: space-evenly;
+    /* column-gap: 20px; */
+}
+.service{
+    width: 250px;
+    padding: 3% 2% ;
+    background: #1e1e1e;
+    color: #fff;
+    margin-top: 7%;
+}
+.service>div{
+    padding-left: 20px;
+}
+.service h3{
+    margin-top: 10px;
+}
+.service p{
+    margin-top: 15px;
+    color: #c9c9c9;
+}
+.know-more{
+    margin-top: 15px;
+    background: none;
+    border: none;
+    color: #ff3343;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-style: "Montserrat";
+}
+.branding img{
+    padding-left: 14px;
+}
+.service-active{
+    background-color: #c91b28;
+}
+.service-active button{
+    color: #c9c9c9;
+}
+
+.experience{
+    display: flex;
+    color: #fff;
+    margin: 3% 15% 3% 17%;
+}
+.years{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+}
+.years h1{
+    font-size: 80px;
+    font-weight: 800;
+    color: #ff3343;
+    text-align: center;
+}
+.years p{
+    font-weight: 600;
+    font-size: 20px;
+}
+.exp-details{
+    margin-left: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.detail{
+    background: #1e1e1e;
+    text-align: center;
+    width: 250px;
+    padding: 20px;
+}
+.detail h3{
+    color: #ff3343;
+    font-size: 40px;
+}
+
+.projects{
+    margin: 0 15%;
+    margin-top: 8%;
+    color: #fff;    
+}
+.projects-intro{
+    display: flex;
+    justify-content: space-between;
+}
+.projects-intro h1{
+    font-weight: 800;
+}
+.projects-intro p{
+    margin: 15px 0;
+}
+.projects-viewAll-button{
+    margin-right: 7%;
+}
+.projects-viewAll-button button{
+    background: #ff3343;
+}
+.projects-detail{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3% 7% 0 0 ;
+    justify-content: space-between;
+    gap: 30px;
+}
+.project-img-outer{
+    background: #1e1e1e;
+    padding: 60px 30px;
+}
+.macro-img{
+    padding: 40px 30px;
+}
+.project h3{
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 20px;
+}
+.project button{
+    color: #ff3343;
+}
+
+.next-project{
+    display: flex;
+    background: #1e1e1e;
+    margin: 5% 20% 5% 15%;
+    color: #fff;
+    padding: 40px 25px;
+    align-items: center;
+    justify-content: space-between;
+}
+.next-project div:first-child{
+    width: 60%;
+}
+.next-project h1{
+    font-weight: 800;
+    font-size: 45px;
+}
+.next-project p{
+    color: #c9c9c9;
+    margin: 20px 0;
+}
+.contact-next-project{
+    margin-right: 15%;
+}
+.contact-next-project button{
+    background: #ff3343;
+    color: #fff;
+}
+.last-list{
+    display: flex;
+    color: #c9c9c9;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 90px;
+    margin-bottom: 40px;
+}
+.last-list-item{
+    list-style-type: none;
+    font-weight: 600;
+}
+
+footer{
+    display: flex;
+    padding: 2% 15%;
+    align-items: center;
+    background: #1e1e1e;
+    justify-content: center;
+}
+.sm-icons{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.social-icons{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
 }

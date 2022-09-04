@@ -7,31 +7,34 @@
     <title>Product Design Landing Page</title>
     <link rel="stylesheet" href="./css/style.css">
     <script src="https://kit.fontawesome.com/858b3d16a1.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav>
         <div class="logo-div">
-            <img src="./images/Logo.svg" alt="" />
+            <img src="./images/Logo.svg" alt="" class="logo-red">
         </div>
         <div class="nav-right">
-            <ul class="list">
-                <li class="list-item">Home<i class="fa-solid fa-caret-down"></i></li>
-                <li class="list-item">Project</li>
-                <li class="list-item">About</li>
-                <li class="list-item">Contact</li>
-                <li class="list-item">Other Page<i class="fa-solid fa-caret-down"></i></li>
+            <ul class="nav-list">
+                <li class="list-item">HOME <i class="fa-solid fa-caret-down"></i></li>
+                <li class="list-item">PROJECT</li>
+                <li class="list-item">ABOUT</li>
+                <li class="list-item">CONTACT</li>
+                <li class="list-item">OTHER PAGE <i class="fa-solid fa-caret-down"></i></li>
             </ul>
         </div>
     </nav>
     <div class="intro">
         <div class="hero-img">
-            <img src="./images/Untitled design (35).png" alt="">
+            <img src="./images/Untitled design (35).png" alt="" height="500px">
         </div>
         <div class="hero-intro">
             <p class="hero-name">Hi I'm Arthur</p>
             <h1 class="hero-skill">Visual Designer</h1>
             <p class="hero-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus fugit expedita corporis magnam dolorum enim alias facere saepe soluta reprehenderit.</p>
-            <button class="about-me">About Me</button>
+            <button class="about-me red-button">ABOUT ME</button>
         </div>
     </div>
 
@@ -39,36 +42,37 @@
     <div class="services">
         <div class="ui-design service">
             <img src="./images/icons8-ball-point-pen-100.png" alt="">
-            <h3>UI Design</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <button>Know More <i class="fa-solid fa-arrow-right"></i></button>
+            <div>
+                <h3>UI Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <button class="know-more">Know More <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            
         </div>
-        <div class="ui-design service">
-            <img src="./images/icons8-ball-point-pen-100.png" alt="pen and paper">
-            <h3>UI Design</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <button>Know More <i class="fa-solid fa-arrow-right"></i></button>
-        </div>
-        <div class="product-design service">
-            <img src="./images/icons8-notepad-96.png" alt="notepad">
-            <h3>Product Design</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <button>Know More <i class="fa-solid fa-arrow-right"></i></button>
+        <div class="product-design service service-active">
+            <img src="./images/icons8-notepad-96.png" alt="notepad" height="100px">
+            <div>
+                <h3>Product Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <button class="know-more">Know More <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            
         </div>
         <div class="branding service">
-            <img src="./images/icons8-ruler-64.png" alt="notepad">
-            <h3>Branding</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <button>Know More <i class="fa-solid fa-arrow-right"></i></button>
+            <img src="./images/icons8-ruler-64.png" alt="notepad" height="90px">
+            <div>
+                <h3>Branding</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <button class="know-more">Know More <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            
         </div>
     </div>
 
     <div class="experience">
         <div class="years">
-            <div>
-                <h1>12</h1>
-                <p>Years Experience</p>
-            </div>
+            <h1>12</h1>
+            <p>Years Experience</p>
         </div>
         <div class="exp-details">
             <div class="detail">
@@ -97,46 +101,46 @@
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
             </div>
             <div class="projects-viewAll-button">
-                <button class="viewAll-button">View All</button>
+                <button class="viewAll-button red-button">View All</button>
             </div>
         </div>
 
-        <div>
+        <div class="projects-detail">
             <div class="project">
                 <div class="project-img-outer">
                     <div class="project-img">
-                        <img src="./images/Screenshot 2022-06-25 131915.jpg" alt="">
+                        <img src="./images/Screenshot 2022-06-25 131915.jpg" alt="" width="400px">
                     </div>
                 </div>
                 <h3>The Vintage</h3>
-                <button>Know More <i class="fa-solid fa-arrow-right"></i></button>
+                <button class="know-more">Know More <i class="fa-solid fa-arrow-right"></i></button>
             </div>
             <div class="project">
                 <div class="project-img-outer">
                     <div class="project-img">
-                        <img src="./images/Screenshot 2022-06-25 132031.jpg" alt="">
+                        <img src="./images/Screenshot 2022-06-25 132031.jpg" alt="" width="400px">
                     </div>
                 </div>
                 <h3>Foodasa</h3>
-                <button>Know More <i class="fa-solid fa-arrow-right"></i></button>
+                <button class="know-more">Know More <i class="fa-solid fa-arrow-right"></i></button>
             </div>
             <div class="project">
-                <div class="project-img-outer">
+                <div class="project-img-outer macro-img">
                     <div class="project-img">
-                        <img src="./images/Screenshot 2022-06-25 133016.jpg" alt="">
+                        <img src="./images/Screenshot 2022-06-25 133016.jpg" alt="" width="400px">
                     </div>
                 </div>
                 <h3>Marco Accent</h3>
-                <button>Know More <i class="fa-solid fa-arrow-right"></i></button>
+                <button class="know-more">Know More <i class="fa-solid fa-arrow-right"></i></button>
             </div>
             <div class="project">
                 <div class="project-img-outer">
                     <div class="project-img">
-                        <img src="./images/Screenshot 2022-06-25 133426.jpg" alt="">
+                        <img src="./images/Screenshot 2022-06-25 133426.jpg" alt="" width="400px">
                     </div>
                 </div>
                 <h3>Mozaic</h3>
-                <button>Know More <i class="fa-solid fa-arrow-right"></i></button>
+                <button class="know-more">Know More <i class="fa-solid fa-arrow-right"></i></button>
             </div>
         </div>
     </div>
@@ -147,7 +151,7 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas at sapiente eum sit a obcaecati reiciendis!</p>
         </div>
         <div class="contact-next-project">
-            <button>Contact</button>
+            <button class=" red-button">Contact</button>
         </div>
     </div>
 
@@ -162,13 +166,13 @@
 
     <footer>
         <div class="footer-logo">
-            <img src="./images/Logo.svg" alt="">
+            <img src="./images/Logo.svg" alt="" class="logo-red">
         </div>
         <div class="sm-icons">
             <ul class="social-icons">
-                <li class="icon"> <img src="./images/facebook.png" alt=""> </li>
-                <li class="icon"><img src="./images/twitter.png" alt=""></li>
-                <li class="icon"><img src="./images/youtube.png" alt=""></li>
+                <li class="icon"> <img src="./images/facebook.png" alt="" height="25px"> </li>
+                <li class="icon"><img src="./images/twitter.png" alt="" height="25px"></li>
+                <li class="icon"><img src="./images/youtube.png" alt="" height="25px"></li>
             </ul>
         </div>
     </footer>
